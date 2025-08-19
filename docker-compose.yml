@@ -1,0 +1,29 @@
+services:
+  backend:
+    build: ./apps/backend
+    container_name: lldm-backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./apps/backend:/usr/src/app
+    tty: true  
+
+  mobile:
+      build: ./apps/mobile
+      container_name: lldm-mobile
+      ports:
+        - "8080:8080"
+      volumes:
+        - ./apps/mobile:/home/flutteruser/app
+      tty: true  
+
+  mongo:
+    image: mongo:7.0
+    container_name: lldm-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
