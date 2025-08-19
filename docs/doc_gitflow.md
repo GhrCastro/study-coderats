@@ -1,8 +1,8 @@
-# Documentação do GitHub Flow para o Projeto GymRats
+# Documentação do GitHub Flow para o Projeto CodeRats
 
 ## 1) Introdução
 
-Este documento descreve a estratégia de **GitHub Flow** adotada para o desenvolvimento do projeto GymRats, garantindo integração contínua, revisão de código estruturada e entregas consistentes em ambiente acadêmico.
+Este documento descreve a estratégia de **GitHub Flow** adotada para o desenvolvimento do projeto CodeRats, garantindo integração contínua, revisão de código estruturada e entregas consistentes em ambiente acadêmico.
 
 ## 2) Branches Principais
 
